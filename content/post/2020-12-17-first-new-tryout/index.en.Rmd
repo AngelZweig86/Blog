@@ -1,0 +1,10 @@
+---
+title: First New Tryout
+author: AID
+date: '2020-12-17'
+slug: []
+categories: []
+tags: []
+---
+
+BLAH BLAH
