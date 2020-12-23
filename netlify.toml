@@ -1,5 +1,4 @@
-[build]
-command = "CI= npm run build"  
+
     
 [context.production.environment]
 HUGO_VERSION = "0.79.0"
@@ -16,8 +15,6 @@ HUGO_ENV = "production"
 [context.deploy-preview.environment]
 HUGO_VERSION = "0.79.0"
 
-[context.branch-deploy]
-command = "hugo --gc --minify -b $DEPLOY_PRIME_URL"
 
 [context.branch-deploy.environment]
 HUGO_VERSION = "0.79.0"
